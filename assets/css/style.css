@@ -1,8 +1,41 @@
 body {
+	background-image: url("../images/asanoha.png");
 	background-color: #ffffff
 	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color:#777777;
+	
 }
+
+#header{
+	padding-top: 20px;
+	color:#ffffff
+}
+
+#nav{
+	color:#777777;
+}
+
+#left{
+	float:left;
+	width: 650px;
+}
+
+#right{
+	float:left;
+	width: 270px;
+}
+
+#footer{
+	clear:both;
+	background-color:#666666;
+    border-top: thick solid #4aaaa5;
+}
+
+li
+{
+	display: inline;
+}
+
 
 h1 {
 
@@ -20,31 +53,4 @@ h3 {
 
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color:#4aaaa5;
-}
-
-#header
-{
-	padding-top: 20px;
-	color:#ffffff
-}
-#nav
-{
-	color:#777777;
-}
-
-#left{
-	float:left;
-	width: 650px;
-}
-#right{
-	float:left;
-	width: 270px;
-}
-
-#footer{
-	clear:both;
-}
-li
-{
-	display: inline;
 }
