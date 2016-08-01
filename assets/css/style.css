@@ -3,11 +3,12 @@ body {
 	background-color: #ffffff
 	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color:#777777;
+	margin-left: 113px;
+	margin-right: 174px;
 	
 }
 
 #header{
-	padding-top: 20px;
 	color:#ffffff
 }
 
@@ -18,18 +19,26 @@ body {
 #left{
 	float:left;
 	width: 650px;
+	background-color: #FFFFFF;
+	margin-right: 30px;
+	padding: 24px;
 }
 
 #right{
 	float:left;
-	width: 270px;
+	width: 191px;
+	height: 191px;
+	background-color: #FFFFFF;
+	padding: 24px;
 }
+
 
 #footer{
 	clear:both;
 	background-color:#666666;
     border-top: thick solid #4aaaa5;
 }
+
 
 li
 {
@@ -46,7 +55,9 @@ h1 {
 h2 {
 
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	color:#4aaaa5;
+	color:#FFFFFF;
+	background-color:#4aaaa5;
+	width: 173px;
 }
 
 h3 {
