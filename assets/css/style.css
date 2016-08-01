@@ -1,80 +1,100 @@
 body {
-	background-image: url("../images/asanoha.png");
-	background-color: #ffffff
-	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color:#777777;
-	
-	
+background-image: url("../images/asanoha.png");
+background-color: #ffffff
+font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+color:#777777;
+margin:0px;
 }
+
+#header {
+width: 100%;
+background: #ffffff;
+display: inline-block;
+margin: 0 0 25px 0;
+}
+
+
+#nav {
+float: right;
+margin-right: 113px;
+}
+
 #main
 {
-	margin-left: 113px;
-	margin-right: 174px;
+margin-left: 113px;
+margin-right: 174px;
+width:960px;
 }
 
 #profile
 {
-	float:left;
-	margin-right:10px;
+float:left;
+margin-right:10px;
 
 }
 #header{
-	color:#ffffff
+color:#ffffff
 }
 
 #nav{
-	color:#777777;
+color:#777777;
+margin-right: 250px;
 }
 
 #left{
-	float:left;
-	width: 650px;
-	background-color: #FFFFFF;
-	margin-right: 30px;
-	padding: 24px;
+float:left;
+width: 650px;
+background-color: #FFFFFF;
+margin-right: 30px;
+padding: 24px;
 }
 
 #right{
-	float:right;
-	width: 167px;
-	height: 191px;
-	background-color: #FFFFFF;
-	padding: 24px;
+float:left;
+width: 167px;
+height: 191px;
+background-color: #FFFFFF;
+padding: 24px;
 }
 
 
 #footer{
-	clear:both;
-	background-color:#666666;
-    border-top: thick solid #4aaaa5;
-    position: fixed;
-    bottom: 0;
+clear:both;
+background-color:#666666;
+   border-top: thick solid #4aaaa5;
+   position: fixed;
+   bottom: 0;
+   width:100%;
+   padding: 25px;
+   color: #ffffff;
+   font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
 
 
 li
 {
-	display: inline;
+display: inline;
 }
 
-
 h1 {
-
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color:#FFFFFF;
-	background-color:#4aaaa5;
-	width: 173px;
+float: left;
+margin: 0 0 0 113px;
+padding: 7px;
+font-family: 'Georgia', Times, Times New Roman, serif;
+color:#FFFFFF;
+background-color:#4aaaa5;
+width: 173px;
 }
 
 h2 {
 
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color:#4aaaa5;
+font-family: 'Georgia', Times, Times New Roman, serif;
+color:#4aaaa5;
 }
 
 h3 {
 
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color:#4aaaa5;
+font-family: 'Georgia', Times, Times New Roman, serif;
+color:#4aaaa5;
 }
