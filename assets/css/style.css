@@ -49,15 +49,15 @@ li
 h1 {
 
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	color:teal;
+	color:#FFFFFF;
+	background-color:#4aaaa5;
+	width: 173px;
 }
 
 h2 {
 
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	color:#FFFFFF;
-	background-color:#4aaaa5;
-	width: 173px;
+	color:#4aaaa5;
 }
 
 h3 {
