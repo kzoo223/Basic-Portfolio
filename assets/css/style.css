@@ -3,11 +3,21 @@ body {
 	background-color: #ffffff
 	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color:#777777;
-	margin-left: 113px;
-	margin-right: 174px;
+	
 	
 }
+#main
+{
+	margin-left: 113px;
+	margin-right: 174px;
+}
 
+#profile
+{
+	float:left;
+	margin-right:10px;
+
+}
 #header{
 	color:#ffffff
 }
@@ -25,8 +35,8 @@ body {
 }
 
 #right{
-	float:left;
-	width: 191px;
+	float:right;
+	width: 167px;
 	height: 191px;
 	background-color: #FFFFFF;
 	padding: 24px;
@@ -37,6 +47,9 @@ body {
 	clear:both;
 	background-color:#666666;
     border-top: thick solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+
 }
 
 
