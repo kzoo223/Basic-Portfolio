@@ -47,6 +47,7 @@ width: 650px;
 background-color: #FFFFFF;
 margin-right: 30px;
 padding: 24px;
+height: 500px;
 }
 
 #right{
@@ -71,6 +72,9 @@ background-color:#666666;
 
 }
 
+#message{
+	height:150px;
+}
 
 li
 {
@@ -97,4 +101,37 @@ h3 {
 
 font-family: 'Georgia', Times, Times New Roman, serif;
 color:#4aaaa5;
+}
+
+form{
+	width: 473px;
+}
+
+input{
+	width:650px;
+	height: 50px;
+	border: solid 1px;
+}
+
+textarea{
+	width: 650px;
+	height: 250px;
+	border: solid 1px;
+}
+
+/*sticky footer*/
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.header {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 4em;
 }
