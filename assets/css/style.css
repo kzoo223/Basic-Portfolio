@@ -16,7 +16,7 @@ margin: 0 0 25px 0;
 
 #nav {
 float: right;
-margin-right: 113px;
+margin:top 25px;
 }
 
 #main
@@ -36,9 +36,16 @@ margin-right:10px;
 color:#ffffff
 }
 
+#midheader{
+	width:960px;
+	height: 50px;
+	margin: 0 0 0 113px;
+}
+
 #nav{
 color:#777777;
-margin-right: 250px;
+padding-top: 15px;
+padding-right: 55px;
 }
 
 #left{
@@ -48,6 +55,20 @@ background-color: #FFFFFF;
 margin-right: 30px;
 padding: 24px;
 height: 500px;
+}
+
+
+button{
+	width:100px;
+	height:20px;
+	background-color: #4aaaa5;
+	color:#FFFFFF;
+
+}
+
+#about
+{
+	margin-top: 10px;
 }
 
 #right{
@@ -83,7 +104,6 @@ display: inline;
 
 h1 {
 float: left;
-margin: 0 0 0 113px;
 padding: 7px;
 font-family: 'Georgia', Times, Times New Roman, serif;
 color:#FFFFFF;
@@ -105,6 +125,7 @@ color:#4aaaa5;
 
 form{
 	width: 473px;
+	padding-top: 10px;
 }
 
 input{
@@ -115,23 +136,17 @@ input{
 
 textarea{
 	width: 650px;
-	height: 250px;
+	height: 200px;
 	border: solid 1px;
 }
 
-/*sticky footer*/
-* {
-margin: 0;
-}
-html, body {
-height: 100%;
-}
-.header {
-min-height: 100%;
-height: auto !important;
-height: 100%;
-margin: 0 auto -4em;
-}
-.footer, .push {
-height: 4em;
+
+
+/*portfolio page*/
+
+.portimg{
+	width: 200px;
+	height: 200px;
+	float:left;
+	padding:2px;
 }
